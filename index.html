@@ -1,17 +1,163 @@
 <!DOCTYPE html>
-<html>
-<head><title>17912561 CANADA INC.</title></head>
-<body style="font-family: sans-serif; padding: 40px; max-width: 600px; line-height: 1.6;">
-    <h1>17912561 CANADA INC.</h1>
-    <p>Federal Corporation registered in Canada specializing in mobile application publishing and software pipeline architectures.</p>
-    <hr>
-    <h3>Corporate Support Desk</h3>
-    <p>For technical infrastructure reports, system debugging, or app queries, please reach out to: <strong>admin@17912561.ca</strong></p>
-    <hr>
-    <h3>Privacy Policy</h3>
-    <p>17912561 CANADA INC. operates under absolute data minimization. Our internal application structures do not track, aggregate, or harvest personal user records.</p>
-    <footer style="margin-top: 60px; font-size: 0.8em; color: gray;">
-        &copy; 2026 17912561 CANADA INC. | All Rights Reserved.
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17912561 CANADA INC.</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            letter-spacing: -0.02em;
+            line-height: 1.5;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            padding: 40px;
+        }
+
+        .mono {
+            font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-size: 0.75rem;
+            color: #888888;
+        }
+
+        header {
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto 80px auto;
+            padding-bottom: 24px;
+            border-bottom: 1px solid #222222;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            margin-top: 8px;
+            color: #ffffff;
+        }
+
+        main {
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+            flex-grow: 1;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 48px;
+        }
+
+        @media (min-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        section {
+            border: 1px solid #1c1c1e;
+            padding: 32px;
+            background-color: #050505;
+            border-radius: 2px;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        p {
+            color: #a1a1a6;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .email-link {
+            color: #ffffff;
+            text-decoration: none;
+            border-bottom: 1px solid #ffffff;
+            font-weight: 500;
+            transition: opacity 0.2s ease;
+        }
+
+        .email-link:hover {
+            opacity: 0.7;
+        }
+
+        footer {
+            max-width: 800px;
+            width: 100%;
+            margin: 80px auto 0 auto;
+            padding-top: 24px;
+            border-top: 1px solid #222222;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .status-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: #00ff66;
+        }
+
+        .status-dot {
+            width: 6px;
+            height: 6px;
+            background-color: #00ff66;
+            border-radius: 50%;
+            box-shadow: 0 0 8px #00ff66;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="mono status-tag"><span class="status-dot"></span>System Operational</div>
+        <h1>17912561 CANADA INC.</h1>
+    </header>
+
+    <main>
+        <div class="grid">
+            <section>
+                <h2>Operations Summary</h2>
+                <p>An independent digital studio operating out of Canada. The corporation focuses on the development, optimization, and scaling of software applications, system automation scripts, and mobile publishing architectures.</p>
+            </section>
+
+            <section>
+                <h2>Corporate Support Desk</h2>
+                <p>For technical inquiries, system integration reviews, or application support, contact our administrative communications hub directly at <a href="mailto:admin@17912561.ca" class="email-link">admin@17912561.ca</a>.</p>
+            </section>
+
+            <section style="grid-column: 1 / -1;">
+                <h2>Privacy Compliance Protocol</h2>
+                <p>17912561 CANADA INC. enforces strict data minimization frameworks across all published platforms. Our application code layouts process information locally on end-user devices. We do not build server side retention caches, harvest telemetry datasets, or distribute personal user profiles to external networks.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="mono">&copy; 2026 17912561 CANADA INC.</div>
+        <div class="mono" style="font-size: 0.65rem; color: #444444;">Federal Corporation Registry // Industry Classification: Software Publishers</div>
     </footer>
+
 </body>
 </html>
