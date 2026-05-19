@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>17912561 CANADA INC.</title>
+    <title>17912561 CANADA INC. | Mobile & Web Product Studio</title>
     <style>
         * {
             box-sizing: border-box;
@@ -34,13 +34,13 @@
         header {
             max-width: 800px;
             width: 100%;
-            margin: 0 auto 80px auto;
+            margin: 0 auto 60px auto;
             padding-bottom: 24px;
             border-bottom: 1px solid #222222;
         }
 
         h1 {
-            font-size: 2.25rem;
+            font-size: 2.0rem;
             font-weight: 700;
             letter-spacing: -0.03em;
             margin-top: 8px;
@@ -57,7 +57,7 @@
         .grid {
             display: grid;
             grid-template-columns: 1fr;
-            gap: 48px;
+            gap: 32px;
         }
 
         @media (min-width: 768px) {
@@ -70,7 +70,7 @@
             border: 1px solid #1c1c1e;
             padding: 32px;
             background-color: #050505;
-            border-radius: 2px;
+            border-radius: 4px;
         }
 
         h2 {
@@ -78,9 +78,6 @@
             font-weight: 600;
             margin-bottom: 12px;
             color: #ffffff;
-            display: flex;
-            align-items: center;
-            gap: 8px;
         }
 
         p {
@@ -89,74 +86,92 @@
             line-height: 1.6;
         }
 
-        .email-link {
-            color: #ffffff;
-            text-decoration: none;
-            border-bottom: 1px solid #ffffff;
-            font-weight: 500;
-            transition: opacity 0.2s ease;
+        ul {
+            list-style-type: none;
+            margin-top: 8px;
         }
 
-        .email-link:hover {
-            opacity: 0.7;
+        li {
+            color: #ffffff;
+            font-size: 0.95rem;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .bullet {
+            color: #444444;
+        }
+
+        .link {
+            color: #ffffff;
+            text-decoration: none;
+            border-bottom: 1px solid #333333;
+            transition: all 0.2s ease;
+        }
+
+        .link:hover {
+            border-bottom-color: #ffffff;
+            color: #a1a1a6;
         }
 
         footer {
             max-width: 800px;
             width: 100%;
-            margin: 80px auto 0 auto;
+            margin: 60px auto 0 auto;
             padding-top: 24px;
             border-top: 1px solid #222222;
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 12px;
         }
 
-        .status-tag {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            color: #00ff66;
-        }
-
-        .status-dot {
-            width: 6px;
-            height: 6px;
-            background-color: #00ff66;
-            border-radius: 50%;
-            box-shadow: 0 0 8px #00ff66;
+        .footer-links {
+            display: flex;
+            gap: 24px;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <div class="mono status-tag"><span class="status-dot"></span>System Operational</div>
+        <div class="mono">Software Publishing & Architecture</div>
         <h1>17912561 CANADA INC.</h1>
     </header>
 
     <main>
         <div class="grid">
-            <section>
-                <h2>Operations Summary</h2>
-                <p>An independent digital studio operating out of Canada. The corporation focuses on the development, optimization, and scaling of software applications, system automation scripts, and mobile publishing architectures.</p>
-            </section>
-
-            <section>
-                <h2>Corporate Support Desk</h2>
-                <p>For technical inquiries, system integration reviews, or application support, contact our administrative communications hub directly at <a href="mailto:admin@17912561.ca" class="email-link">admin@17912561.ca</a>.</p>
-            </section>
-
             <section style="grid-column: 1 / -1;">
-                <h2>Privacy Compliance Protocol</h2>
-                <p>17912561 CANADA INC. enforces strict data minimization frameworks across all published platforms. Our application code layouts process information locally on end-user devices. We do not build server side retention caches, harvest telemetry datasets, or distribute personal user profiles to external networks.</p>
+                <h2>Studio Profile</h2>
+                <p>17912561 CANADA INC. is an independent digital product studio based in Ottawa, Ontario. We build, deploy, and scale high-performance native iOS applications, multi-platform software solutions, and automated content discovery engines designed for modern digital ecosystems.</p>
+            </section>
+
+            <section>
+                <h2>Current Projects</h2>
+                <p>We are actively engineering native mobile applications focused on consumer utility and highly tailored interactive experiences. Our active development pipeline includes:</p>
+                <ul>
+                    <li><span class="bullet">//</span> Custom Mobile Publishing Frameworks</li>
+                    <li><span class="bullet">//</span> Media Processing & Automation Toolkits</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Corporate Support</h2>
+                <p>For application support, API integrations, licensing, or corporate data inquiries, please reach out directly to our administrative management hub at <a href="mailto:admin@17912561.ca" class="link">admin@17912561.ca</a>.</p>
             </section>
         </div>
     </main>
 
     <footer>
-        <div class="mono">&copy; 2026 17912561 CANADA INC.</div>
-        <div class="mono" style="font-size: 0.65rem; color: #444444;">Federal Corporation Registry // Industry Classification: Software Publishers</div>
+        <div class="footer-links mono">
+            <a href="#" class="link">Privacy Policy</a>
+            <a href="#" class="link">Terms of Service</a>
+        </div>
+        <div>
+            <div class="mono">&copy; 2026 17912561 CANADA INC. All rights reserved.</div>
+            <div class="mono" style="font-size: 0.65rem; color: #444444; margin-top: 4px;">Federal Corporation Registry // Industry Classification: 513120 (Software Publishers)</div>
+        </div>
     </footer>
 
 </body>
